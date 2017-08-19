@@ -1,0 +1,5 @@
+struct NAME; //the struct to sync
+setup_peer_sync_NAME(); //setup a sync where both can modify the struct.
+setup_server_sync_NAME(); //setup a sync where only the caller can modify the struct.
+setup_client_sync_NAME(); //setup a sync where only the other peer can modify the struct.
+sync_NAME(); //send the state of the struct to the other peer.
