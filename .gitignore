@@ -1,3 +1,5 @@
 *.o
 nsync
-
+nsync.exe
+*.swp
+*.d
