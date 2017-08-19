@@ -1,0 +1,2 @@
+struct_nsync generates code to send structs over networks.
+It uses xdr as a standard data serialization format.
